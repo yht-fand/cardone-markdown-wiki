@@ -13,9 +13,9 @@ define(['marked', 'backbone'], function (marked) {
             var mdFilePath = path + '.md';
 
             require(['text!' + mdFilePath], function (mdFile) {
-                $('body').html(marked(mdFile));
+                $('#region-main').html(marked(mdFile));
             }, function (err) {
-                $('body').html('');
+                $('#region-main').html('');
             });
         },
         path: function (path) {
