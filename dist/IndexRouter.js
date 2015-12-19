@@ -1,0 +1,1 @@
+define(["marked","backbone"],function(t){"use strict";return Backbone.Router.extend({routes:{"":"readmeMd","*path.md":"pathMd","*path":"path"},readmeMd:function(){this.pathMd("README")},pathMd:function(e){var n=e+".md";require(["text!"+n],function(e){$("body").html(t(e))},function(t){$("body").html("")})},path:function(t){this.pathMd(t+"/README")}})});
