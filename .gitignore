@@ -4,7 +4,6 @@
 *.orig
 .idea
 tmp/
-dist/
 ext/
 node_modules/
 coverage/
