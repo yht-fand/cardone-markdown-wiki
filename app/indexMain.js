@@ -15,8 +15,7 @@ require.config({
             deps: ['jquery']
         },
         backbone: {
-            deps: ['jquery', 'underscore'],
-            shim: 'Backbone'
+            deps: ['jquery', 'underscore']
         }
     },
     deps: ['backbone', './IndexRouter', 'bootstrap'],
