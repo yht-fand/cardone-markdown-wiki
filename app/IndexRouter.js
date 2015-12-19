@@ -7,7 +7,7 @@ define(['marked', 'backbone'], function (marked) {
             "*path": "path"
         },
         readmeMd: function () {
-            this.pathMd('README')
+            this.pathMd('README');
         },
         pathMd: function (path) {
             var mdFilePath = path + '.md';
@@ -19,7 +19,7 @@ define(['marked', 'backbone'], function (marked) {
             });
         },
         path: function (path) {
-            this.pathMd(path + '/README')
+            this.pathMd(path + '/README');
         }
     });
 });

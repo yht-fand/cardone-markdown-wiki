@@ -27,7 +27,6 @@
   "nonbsp"        : true,
   "nonew"         : true,
   "plusplus"      : false,
-  "quotmark"      : "single",
   "undef"         : true,
   "unused"        : "vars",
   "strict"        : false,

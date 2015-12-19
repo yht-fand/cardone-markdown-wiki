@@ -21,7 +21,7 @@ require.config({
     },
     deps: ['backbone', './IndexRouter', 'bootstrap'],
     callback: function (Backbone, IndexRouter) {
-        new IndexRouter();
+        var indexRouter = new IndexRouter();
 
         Backbone.history.start();
     }
