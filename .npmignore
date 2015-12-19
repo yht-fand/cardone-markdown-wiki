@@ -1,0 +1,12 @@
+api
+bower_components
+docs
+jsdoc
+src
+tasks
+test
+tmp
+.gitignore
+.jshintrc
+bower.json
+gulpfile.js
