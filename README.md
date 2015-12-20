@@ -1,8 +1,8 @@
 # cardone markdown wiki
 
-基于静态 markdown 文件的 wiki
+基于静态 markdown 文件的 wiki。
 
-没做多余的处理，保持与github.com、git.oschina.net中的md访问样式一致。便于随时迁移到github.com、git.oschina.net中。
+没多余的处理，保持与github.com、git.oschina.net中的md访问样式一致。便于随时迁移到github.com、git.oschina.net中。
 
 ```
 访问 http://127.0.0.1/,默认读取 README.md 文件解析渲染到#region-main中。
