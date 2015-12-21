@@ -9,7 +9,10 @@
     "_"          : true,
     "Backbone"   : true,
     "Marionette" : true,
-    "C1" : true
+    "C1" : true,
+    "JSON" : true,
+    "UM" : true,
+    "google" : true
   },
 
   "bitwise"       : true,
@@ -31,11 +34,11 @@
   "unused"        : "vars",
   "strict"        : false,
   "trailing"      : true,
-  "maxparams"     : 4,
-  "maxdepth"      : 2,
-  "maxstatements" : 12,
-  "maxcomplexity" : 6,
-  "maxlen"        : 100,
+  "maxparams"     : 20,
+  "maxdepth"      : 4,
+  "maxstatements" : 24,
+  "maxcomplexity" : 12,
+  "maxlen"        : 200,
 
   "asi"           : false,
   "boss"          : false,
