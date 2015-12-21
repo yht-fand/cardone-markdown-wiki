@@ -1,6 +1,8 @@
-# cardone markdown wiki
+# markdown wiki
 
-基于静态 markdown 文件的 wiki。
+静态 markdown 文件 wiki。
+
+基于 backbone + marked 开发的前端应用。
 
 没多余的处理，保持与github.com、git.oschina.net中的md访问样式一致。便于随时迁移到github.com、git.oschina.net中。
 
