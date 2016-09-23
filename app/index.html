@@ -6,24 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>cardone-markdown-wiki</title>
     <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="lib/html5shiv/dist/html5shiv.min.js"></script>
     <script src="lib/respond/dest/respond.min.js"></script>
     <![endif]-->
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-static-top">
-    <a class="navbar-brand" href="#">api</a>
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-            <a class="nav-link" href="#">首页</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#errorCode.md">错误码</a>
-        </li>
-    </ul>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">切换 导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">wiki</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#errorCode.md">错误码</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
 </nav>
-<div class="container" data-id="region-main"></div>
+<div class="container-fluid" data-id="region-main" style="margin-top: 60px"></div>
 <script data-main="app.js" src="lib/requirejs/require.js" defer="defer" async="true"></script>
 </body>
 </html>
