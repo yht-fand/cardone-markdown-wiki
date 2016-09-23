@@ -20,13 +20,13 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "2.1.4",
-    "text": "requirejs-text#~2.0.14",
-    "requirejs": "~2.1.22",
-    "html5shiv": "~3.7.3",
-    "respond": "~1.4.2",
-    "bootstrap": "~3.3.6",
-    "backbone": "~1.2.3",
-    "marked": "~0.3.5"
+    "jquery": "*",
+    "requirejs-text": "*",
+    "requirejs": "*",
+    "html5shiv": "*",
+    "respond": "*",
+    "bootstrap": "*",
+    "backbone": "*",
+    "marked": "*"
   }
 }
