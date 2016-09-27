@@ -16,6 +16,10 @@ define(['marked', 'backbone'], function (marked) {
                 $('div[data-id="region-main"]').html(marked(mdFile));
 
                 $('div[data-id="region-main"] table').addClass('table table-bordered table-hover table-condensed');
+
+                $('div[data-id="region-main"] a[href^="http"]').each(function () {
+                    $(this).attr('target', '_blank');
+                });
             }, function (err) {
                 $('div[data-id="region-main"]').html('');
             });
